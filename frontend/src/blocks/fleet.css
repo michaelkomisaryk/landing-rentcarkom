@@ -1,0 +1,49 @@
+.fleet__subtitle {
+  max-width: 62ch;
+  margin: -8px 0 24px;
+}
+
+.car {
+  overflow: hidden;
+  background: var(--color-surface);
+  border: 1px solid var(--color-line);
+}
+
+.car__image {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  background: var(--color-accent-soft);
+}
+
+.car__body {
+  padding: 18px 18px 20px;
+}
+
+.car__class {
+  margin: 0;
+  color: var(--color-accent);
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.car__title {
+  margin: 8px 0 6px;
+  font-size: 1.2rem;
+}
+
+.car__plate {
+  white-space: nowrap;
+}
+
+.car__price {
+  margin: 14px 0 0;
+  font-size: 1.15rem;
+  font-weight: 800;
+}
+
+.car__price span {
+  color: var(--color-muted);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
